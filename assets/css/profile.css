@@ -1,0 +1,42 @@
+.profile {
+    max-width: 80%;
+    margin: 24px auto;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.user img {
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+}
+
+.tasks {
+    margin-top: 48px;
+}
+
+.tasks h3 {
+    margin: 12px 0;
+}
+
+.card-wrapper h3 {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.card-wrapper .card {
+    border: 1px solid blueviolet;
+    width: 33,3%;
+    padding: 12px;
+}

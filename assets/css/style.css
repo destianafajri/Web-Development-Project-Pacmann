@@ -1,0 +1,72 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+a {
+    margin-left: 0;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login .row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login .row * {
+    width: 200px;
+}
+
+.btn {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 48px;
+    background-color: blueviolet;
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style-type: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

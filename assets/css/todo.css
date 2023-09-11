@@ -1,0 +1,77 @@
+.navbar {
+    background-color: blueviolet;
+}
+.todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin: 24px 0;
+    color: blueviolet;
+}
+
+.todo .card-wrapper {
+    border: 1px solid black;
+    width: 300px;
+    padding: 4px;
+}
+
+.todo .card-wrapper h3 {
+    text-align: center;
+}
+
+.todo .todo-item {
+    border: 1px solid black;
+    padding: 16px 16px 4px 16px;
+}
+
+.todo .todo-item h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.todo .todo-item .btn-wrapper {
+    margin: 8px 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-wrapper button {
+    width: 56px;
+    padding: 2px;
+    border: none
+}
+
+.btn-edit {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 15%;
+}
+
+.btn-delete {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 15%;
+}
+
+.btn-done {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 15%;
+}
+
+.btn-tambah {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: blueviolet;
+    margin-bottom: 0;
+}
